@@ -1,18 +1,16 @@
 <!doctype html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/0f48378685.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
-</head>
-<body>
-
-
-<!-- <div class="About"> -->
-
+  </head>
+  <body>
+    <div id="root">
     <nav>
         <h2>Portfolio</h2>
         <ul class="menu">
@@ -20,7 +18,7 @@
             <li><h3><a href="#Education">Education</a></h3></li>
             <li><h3><a href="#Contact">Contact</a></h3></li>
         </ul>
-        <button class="Download"><a href="./Files/Dev_shankar.pdf" download="Shankar's resume" class="Download">Download Resume</a></button>
+        <button class="Download"><a href="./assets/Files/Dev_shankar.pdf" download="Shankar's resume" class="Download">Download Resume</a></button>
     </nav>
 
     <div class="container">
@@ -33,12 +31,10 @@
         </aside>
 
         <article>
-            <img src="./Img/1699442623352 (1).jpg" alt="Shankar's photo">  
+            <img src="./assets/Img/1699442623352 (1).jpg" alt="Shankar's photo">  
         </article>
 
     </div>
-
-<!-- </div> -->
 
 <div class="Education">
 
@@ -148,8 +144,7 @@
 
     </div>
 </footer>
-    
-
-</body>
-
+    </div>
+    <script type="module" src="/src/index.js"></script>
+  </body>
 </html>
